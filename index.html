@@ -33,10 +33,23 @@
 
 <body class="font-lato">
   <!-- header section -->
-  <header>
+  <header class="container mx-auto mt-12">
     <!-- nav start -->
-    <nav>
-
+    <nav class="flex justify-between bg-[#F85559] rounded-[600px] px-2 lg:px-12 py-2 lg:py-8">
+        <ul class="flex items-center text-white gap-8">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop</li>
+          <li>All Fruits</li>
+        </ul>
+        <div class="flex gap-5 items-center">
+          <img src="./images/logo.png" alt="">
+          <h2 class="text-4xl text-white font-bold">Fruit Burst</h2>
+        </div>
+        <div class="bg-white flex items-center px-4 py-5 rounded-[50px]">
+          <input class="" type="text" placeholder="Search here">
+          <a href="" class=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
     </nav>
     <!-- nav end -->
   </header>
@@ -60,7 +73,7 @@
               </div>
             </div>
           </div>
-          <img src="/images/banner1.png" class="w-full" />
+          <img src="./images/banner1.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
@@ -81,7 +94,7 @@
               </div>
             </div>
           </div>
-          <img src="/images/banner2.png" class="w-full" />
+          <img src="./images/banner2.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
@@ -102,7 +115,7 @@
               </div>
             </div>
           </div>
-          <img src="/images/banner3.png" class="w-full" />
+          <img src="./images/banner3.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
             <a href="#slide4" class="btn btn-circle">❯</a>
@@ -123,7 +136,7 @@
               </div>
             </div>
           </div>
-          <img src="/images/banner4.png" class="w-full" />
+          <img src="./images/banner4.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide1" class="btn btn-circle">❯</a>
@@ -178,7 +191,7 @@
         <!-- card 1 -->
         <div class="card  bg-base-100 border">
           <figure class="px-10 pt-10">
-            <img src="/images/fruit6.png" alt="Apple" class="" />
+            <img src="./images/fruit6.png" alt="Apple" class="" />
           </figure>
           <div class=" space-y-6 items-center text-center">
             <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
@@ -207,7 +220,7 @@
         <!-- card 2 -->
         <div class="card bg-base-100 border">
           <figure class="px-10 pt-10">
-            <img src="/images/fruit7.png" alt="Apple" class="" />
+            <img src="./images/fruit7.png" alt="Apple" class="" />
           </figure>
           <div class=" space-y-6 items-center text-center">
             <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
@@ -236,7 +249,7 @@
         <!-- card 3 -->
         <div class="card bg-base-100 border">
           <figure class="px-10 pt-10">
-            <img src="/images/fruit8.png" alt="Apple" class="" />
+            <img src="./images/fruit8.png" alt="Apple" class="" />
           </figure>
           <div class=" space-y-6 items-center text-center">
             <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
@@ -265,7 +278,7 @@
         <!-- card 4 -->
         <div class="card bg-base-100 border">
           <figure class="px-10 pt-10">
-            <img src="/images/fruit9.png" alt="Apple" class="" />
+            <img src="./images/fruit9.png" alt="Apple" class="" />
           </figure>
           <div class=" space-y-6 items-center text-center">
             <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
@@ -298,17 +311,89 @@
     </section>
     <!-- deals of the day section end -->
 
+    <!-- meet the team section -->
 
-
+    <section class="container mx-auto lg:mt-32">
+      <div class="bg-[url(images/team.png)] bg-cover px-40 py-32">
+       <div class="text-center space-y-6">
+         <h2 class="text-5xl text-white font-bold">Meet the team section</h2>
+         <p class="text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+            Latin literature from 45 BC, making it over 2000 years old.</p>
+       </div>
+       <div class="flex justify-center gap-12 mt-12">
+         <!-- card 1 -->
+         <div class="card ">
+           <figure class="px-10 pt-10">
+             <img src="./images/member1.png" alt="Shoes" class="" />
+           </figure>
+           <div class="card-body items-center text-center">
+             <h2 class="card-title text-white">Awlad Hossain</h2>
+             <p class="text-white">Fruits Expert</p>
+             <div class="flex gap-4">
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-square-twitter"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-facebook"></i></a>
+             </div>
+           </div>
+         </div>
+         <!-- card 2 -->
+         <div class="card ">
+           <figure class="px-10 pt-10">
+             <img src="./images/member1.png" alt="Shoes" class="" />
+           </figure>
+           <div class="card-body items-center text-center">
+             <h2 class="card-title text-white">Awlad Hossain</h2>
+             <p class="text-white">Fruits Expert</p>
+             <div class="flex gap-4">
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-square-twitter"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-facebook"></i></a>
+             </div>
+           </div>
+         </div>
+         <!-- card  -->
+         <div class="card ">
+           <figure class="px-10 pt-10">
+             <img src="./images/member1.png" alt="Shoes" class="" />
+           </figure>
+           <div class="card-body items-center text-center">
+             <h2 class="card-title text-white">Awlad Hossain</h2>
+             <p class="text-white">Fruits Expert</p>
+             <div class="flex gap-4">
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-square-twitter"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-facebook"></i></a>
+             </div>
+           </div>
+         </div>
+         <!-- card 4 -->
+         <div class="card ">
+           <figure class="px-10 pt-10">
+             <img src="./images/member1.png" alt="Shoes" class="" />
+           </figure>
+           <div class="card-body items-center text-center">
+             <h2 class="card-title text-white">Awlad Hossain</h2>
+             <p class="text-white">Fruits Expert</p>
+             <div class="flex gap-4">
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-square-twitter"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="" class="text-xl text-[#F85559]"><i class="fa-brands fa-facebook"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+   </section>
+   <!-- meet the team section end -->
   </main>
   <!-- main end -->
+  <!-- footer start -->
   <footer class="mt-32 footer footer-center p-10 bg-[#121212] text-primary-content">
     <div class="flex gap-2">
-      <img src="images/logo.png" alt="">
+      <img src="./images/logo.png" alt="">
       <p class="text-4xl font-bold">
         Fruit Burst
       </p>
-
     </div>
     <div>
       <ul class="text-white flex gap-12">
@@ -340,7 +425,7 @@
       </div>
     </div>
   </footer>
-  <!-- footer -->
+  <!-- footer end-->
 
 
 </body>
